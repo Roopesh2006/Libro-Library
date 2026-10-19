@@ -1,0 +1,21 @@
+LIBRAPRO PORT CONFIGURATION
+
+Frontend:
+  http://localhost:5174/
+
+Backend:
+  http://localhost:5000/
+
+Google Cloud:
+  Add exactly:
+  http://localhost:5174
+
+After changing the Google Cloud Authorized JavaScript origin:
+1. Stop Vite with Ctrl+C.
+2. Run: npm run dev
+3. Open: http://localhost:5174/
+4. Hard refresh with Ctrl+Shift+R.
+
+The frontend .env contains VITE_GOOGLE_CLIENT_ID.
+The backend server/.env contains GOOGLE_CLIENT_ID.
+Keep these two Client IDs identical.

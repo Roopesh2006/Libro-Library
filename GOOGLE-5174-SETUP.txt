@@ -1,0 +1,10 @@
+Google Sign-In configuration
+
+Frontend: http://localhost:5174
+Backend: http://localhost:5000
+Authorized JavaScript origin: http://localhost:5174
+
+Client ID used by this build:
+15122987353-6v7529bskq1qsdcaofu5v263amg749rk.apps.googleusercontent.com
+
+Restart both Vite and the backend after extracting.
